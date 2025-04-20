@@ -1,1 +1,3 @@
 # AtliQ_Hospitality_Analysis
+# Live Dashboard
+https://app.powerbi.com/view?r=eyJrIjoiOTUxODEyODEtMTE2ZC00MGNmLTkzYWItMjIwODJlZjI1ZTQwIiwidCI6ImM2ZTU0OWIzLTVmNDUtNDAzMi1hYWU5LWQ0MjQ0ZGM1YjJjNCJ9
