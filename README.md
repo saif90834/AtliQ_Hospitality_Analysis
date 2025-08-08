@@ -1,53 +1,65 @@
-# Business-Insights-360-PowerBI
+# AtliQ Hospitality Analysis - PowerBI
 
-Link to [Interactive Dashboard](h)
+As part of the codebasics september month resume challenge, I have worked on this analysis project.
 
+Link to [Interactive Dashboard](https://www.novypro.com/project/-codebasics-september-month-resume-challenge)
 
-## Project Overview
+Link to [Presentation Video](https://www.linkedin.com/posts/naveen-s6_codebasicsresumechallenge-codebasics-codebasicsresumechallenge-activity-6977486712180527105-17Hm)
 
-AtliQ Hardware is growing rapidly in the recent years, and they have decided to implement the data analytics using PowerBi in their company for the first time to surpass their competitors in the market and to make data driven decisions. This project is hoped to give answers to the questions of stakeholder in terms all the aspects like finance, sales, marketing and supply chain.
+## Problem statement
 
-## Tech stacks
+Atliq Grands owns multiple five-star hotels across India. They have been in the hospitality industry for the past 20 years. Due to strategic moves from other competitors and ineffective decision-making in management, Atliq Grands are losing its market share and revenue in the luxury/business hotels category. As a strategic move, the managing director of Atliq Grands wanted to incorporate “Business and Data Intelligence” in order to regain their market share and revenue. However, they do not have an in-house data analytics team to provide them with these insights.
 
-- SQL
-- PowerBi Desktop
-- Excel
-- DAX language
-- DAX studio (for optimizing the report)
-- Project charter file
+Their revenue management team had decided to hire a 3rd party service provider to provide them insights from their historical data.
 
-## PowerBI techniques Learnt
+### Task List
 
-- What are all the questions should be asked before staring the project
-- Creating calculated columns
-- creating measure using DAX language
-- Data modeling
-- Using Bookmarks to switch between two visuals
-- Page navigation with buttons
-- Using divide function to prevent zero division errors
-- creating date table using m language
-- Dynamic titles based on the applied filters
-- Using KPI indicators
-- Conditional formatting the values in visuals using icons or background color
-- Data validation techniques
+You are a data analyst who has been provided with sample data and a mock-up dashboard to work on the following task. You can download all relevant documents from the download section.
 
-## Business related terms
+- Create the metrics according to the metric list. 
+- Create a dashboard according to the mock-up provided by stakeholders. 
+- Create relevant insights that are not provided in the metric list/mock-up dashboard.
 
-- Gross price
-- Pre-invoice deductions
-- Post-Invoice deductions
-- Net Invoice sale
-- Gross Margin
-- Net sales
-- Net profit
-- COGC - cost of goods sold
+## Provided Mock-up Dashboard
+<p align="center">
+    <img src="https://github.com/Naveen-S6/AtliQ_Hospitality_Analysis_PowerBI/blob/main/Dataset/mock%20up%20dashboard_atliq%20grands.png" width="600">
+</p>
 
-## Importing data into PowerBi
-
-- As the database is MySQL in this project, we need to import the datasets from Mysql database to PowerBi by providing the Database access credential
 
 ## Data Model
 
-- Data modeling plays a vital role and is considered as the basement of report. All the visuals will be build upon the data model.
-- Poor data modeling affects the over all performance of the report.
-- In this project, we have followed Snowfall data modeling method.
+<p align="center">
+    <img src='https://github.com/Naveen-S6/AtliQ_Hospitality_Analysis_PowerBI/blob/main/resources/data_model.png' height="400">
+</p>
+
+
+## Overall Analysis View
+
+<p align="center">
+    <img src='https://github.com/Naveen-S6/AtliQ_Hospitality_Analysis_PowerBI/blob/main/resources/overall_view.png' width="600">
+</p>
+
+## Monthly Analysis View
+
+<p align="center">
+    <img src='https://github.com/Naveen-S6/AtliQ_Hospitality_Analysis_PowerBI/blob/main/resources/monthly_view.png' width="600">
+</p>
+
+## Learnt things from this Project 
+- Learnt to build a new visual (Calendar visual) using matrix table, which can be utilized for different purpose of analyze. ([Article referred](https://www.linkedin.com/pulse/calendar-matrix-syed-ahmed-ali/?trackingId=VgyLpo%2BYxVRs8tD03PXcPQ%3D%3D))
+- By referring different cancellation polices followed by different hotels, understood that most of the hotels charge zero fee, only if the booking is cancelled before three months of booking date. If the booking is cancelled after that, the charge range from 60 to 90% of the booking cost.
+- Learnt, how to use bookmarks and selection for different purposes. (Page navigation and clear filter button in the dashboard was achieved using bookmarks and selection. website like page navigation [YouTube tutorial](https://www.youtube.com/watch?v=xCSYLrcLW00)   )
+- Tried using color palette and stick with that colors throughout the dashboard ([Color palette link](https://colorhunt.co/palette/06113cff8c32ddddddeeeeee))
+
+## Some Important insights from the Dashboard
+
+- Mumbai generates the highest revenue (669 M) followed by Bangalore, Hyderabad and Delhi
+- AtliQ Exotica performs better compared to all 7 type of properties with 320 Million revenue, rating 3.62, occupancy percentage 57 and cancellation rate as 24.4%.
+- AtliQ Bay has the highest occupancy of 66%
+- Week 24 recorded the highest revenue among all, which is 139.6 Million
+- Delhi tops both in occupancy and rating followed by Hyderabad, Mumbai, Bangalore
+- AtliQ lost around 298 Million in cancellation 
+- Elite type rooms has the most booking and as well higher cancellation rate
+
+
+
